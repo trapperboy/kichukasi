@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🔰 CHANNAL 🔰', url='https://t.me/bettermalayalam')
+                InlineKeyboardButton('🔰 CHANNAL 🔰', url='https://t.me/moviesbotchannel')
             ],
             [
                 InlineKeyboardButton('🫂𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -39,11 +39,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url='http://t.me/Emiliabetter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤝Sᴜᴘᴘᴏʀᴛ', url='https://t.me/CinemaFactorigroup')
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤝Sᴜᴘᴘᴏʀᴛ🤝', url='https://t.me/moviesbotchannel')
             ],[
-            InlineKeyboardButton('🫂ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😍ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🫂ʜᴇʟᴘ🫂', callback_data='help'),
+            InlineKeyboardButton('😍ᴀʙᴏᴜᴛ😍', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -81,7 +81,7 @@ async def start(client, message):
             InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️', url='http://t.me/Emiliabetter_bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔎Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤝Sᴜᴘᴘᴏʀᴛ', url='https://t.me/CinemaFactorigroup')
+            InlineKeyboardButton('🤝Sᴜᴘᴘᴏʀᴛ', url='https://t.me/moviesbotchannel')
             ],[
             InlineKeyboardButton('🫂ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😍ᴀʙᴏᴜᴛ', callback_data='about')
