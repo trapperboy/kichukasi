@@ -50,6 +50,11 @@ Very Sempil Bot Auto Filter bot
 
 ###ANNA BEN REPO
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/trapperboy/kichukasi)
+
+# Deploy To Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/CVzzzm?referralCode=jWOOA8)
+
 ### Hard Way
 
 ```bash
